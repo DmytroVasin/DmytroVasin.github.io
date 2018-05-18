@@ -1,0 +1,248 @@
+{
+  "basics": {
+    "name": "Vasin Dmytro",
+    "label": "Ruby On Rails Developer",
+    "picture": "https://avatars2.githubusercontent.com/u/1914001",
+    "email": "dmytro.vasin@gmail.com",
+    "phone": "(095) 433-46-74",
+    "summary": "I would like to get into a friendly team, where I will have a possibility to improve my programming skills and to be involved in unusual major projects. I am Ruby on Rails developer with great passion for JS, finding inspiration in programming itself. First of all, I am seeking good and clear solutions to complex problems.",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "Dmytro Vasin",
+        "url": "https://twitter.com/DmytroVasin"
+      },
+      {
+        "network": "Github",
+        "username": "DmytroVasin",
+        "url": "https://github.com/"
+      }
+    ]
+  },
+  "volunteer": [
+    {
+      "organization": "Anadea",
+      "position": "Ruby On Rails Developer",
+      "website": "https://anadea.info/",
+      "startDate": "2013-10-30",
+      "endDate": "2018-05-20",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "JetThoughts",
+      "position": "Ruby On Rails Developer",
+      "website": "http://www.jetthoughts.com/",
+      "startDate": "2012-10-15",
+      "endDate": "2013-08-15",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "work": [
+    {
+      "company": "SILO",
+      "position": "Fronted + Backend developer",
+      "summary": "It is a desktop cryptocurrency wallet built on React and Electron JS",
+      "highlights": [
+        "Electron: Setup Autoapdates for native apps for Mac and Windows platforms",
+        "Electron: Add ability to pack project as a .DMG and .EXE files",
+        "Mock Server: Setup server as a stagin server for the app",
+        "USB Device: Add ability to communicate with USB device ( Approve and Decline)",
+        "React: React + Redux based application"
+      ]
+    },
+    {
+      "company": "Beyondimagination",
+      "position": "Backend developer",
+      "summary": "Beyondimagination is a site where models and stuidos can upload content for sale.",
+      "highlights": [
+        "GEM: Create special solution for that project: Payment gem for CCBill payment system",
+        "AWS: Add ability to upload files to S3 in a background",
+        "Encoding: Encode video after uploading ( interact with Zencoder service )",
+        "Image Processing: Apply image uploading ( S3 ) + add ability to process image on the fly ( Imgix )",
+        "AWS: Write AWS Lambda to trigger callbacks on file uploads",
+        "Data transfer: Parse 2M links in parallel (Eventmachine + Fibers)"
+      ]
+    },
+    {
+      "company": "Meek",
+      "position": "Fronted + Backend developer",
+      "summary": "On the site you can listen to popular religious radio stations, podcasts of famous businessmen, mothers and spiritual teachers, telling about their lives",
+      "highlights": [
+        "SEO: Deep work with SEO optimisation ( Prerenderer.io, Screaming Frog )",
+        "Angular: Project based on Angular 1",
+        "FB Share: Setup publising to Facebook pages",
+        "RSS: Add RSS parsing from differend feed endpoints"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ruby on Rails",
+      "level": "",
+      "keywords": [
+        "Ruby, Rails 3, 4, 5, Rails API",
+        "Rmagick, Fog, AWS, Zencoder",
+        "Dalli, whenever, geoip, foursquare, delayed_job, resque",
+        "ElasticSearch based on \"Chevy\", Ransack",
+        "I18n",
+        "Active Admin",
+        "PDF builder ( wkhtmltopdf )",
+        "Mailcatcher, Native Rails previewer.",
+        "Jbuilder + ActiveModel serializer",
+        "Paypal SDK ( Braintree), Stripe",
+        "SEO ( prerender.io, share on FB, TW tags )",
+        "Sinatra, Sinatra as API",
+        "Editors ( Markdown, redcarpet, pygments, markitup-rails )"
+      ]
+    },
+    {
+      "name": "JS, HTML, CSS",
+      "level": "",
+      "keywords": [
+        "CSS ( old browser support, all browsers, mobile view )",
+        "Angular 1 in production app",
+        "React ( Redux, Babel, Webpack ) in home projects",
+        "npm ( yarn )",
+        "Electron",
+        "SVG, Fontcustom",
+        "WebRTC"
+      ]
+    },
+    {
+      "name": "Extra skills ( OS )",
+      "level": "",
+      "keywords": [
+        "Git",
+        "MacOS",
+        "Sublime 3 ( with extensions )",
+        "Postman with Httparty.",
+        "Screaming Frog for SEO",
+        "NewRelic, Google Tag manager, customerIO",
+        "SEO ( Optimization for single page )"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "",
+      "keywords": [
+        "Rspec 2,3",
+        "VCR",
+        "Doubles, Stubs, Mocks, build_stubbed",
+        "Page Object pattern",
+        "Parallel Test",
+        "TimeCop"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "(Upper Intermidiate)"
+    },
+    {
+      "language": "Russian",
+      "fluency": "(Native)"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "(Native)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rails + Modern JS Stack",
+      "keywords": [
+        "Write apps on Electron",
+        "React, Redux",
+        "Write chrome extension"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Minsk JS",
+      "publisher": "24 May 2018",
+      "releaseDate": "",
+      "website": "https://minskjs.timepad.ru/event/606211/"
+    },
+    {
+      "name": "Dnepr JS Сlub",
+      "publisher": "18 Jan 2018",
+      "releaseDate": "",
+      "website": "https://dou.ua/calendar/19232/"
+    },
+    {
+      "name": "Open Source activity: Rails",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "http://contributors.rubyonrails.org/contributors/dmytro-vasin/commits",
+      "summary": ""
+    },
+    {
+      "name": "Open Source activity: Game",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "https://github.com/DmytroVasin/bomber",
+      "summary": "Game based on Phaser.js and WebSockets"
+    },
+    {
+      "name": "Open Source activity: Articles",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "https://anadea.info/blog/author/dmitriy-vasin",
+      "summary": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "https://github.com/DmytroVasin/ccbill_ruby",
+      "reference": "Unofficial CCBill SDK for Ruby"
+    },
+    {
+      "name": "https://github.com/DmytroVasin/bomber",
+      "reference": "Bomberman game with Multiplayer"
+    },
+    {
+      "name": "https://github.com/DmytroVasin/electron-special",
+      "reference": "In Progress: Simple electron base calculator for Win and Mac with latest features."
+    },
+    {
+      "name": "https://github.com/DmytroVasin/audit_logger",
+      "reference": "Gem AuditLogger ( extracted from project )"
+    },
+    {
+      "name": " https://github.com/DmytroVasin/TimeTracker",
+      "reference": "Electron ( Ract+Redux app)"
+    },
+    {
+      "name": " https://github.com/DmytroVasin/TimeTrakerAPI",
+      "reference": "API ( Rails + ActiveModel Serializer )"
+    },
+    {
+      "name": "https://github.com/DmytroVasin/ListenChartsOnElectronAPI",
+      "reference": "API for audio charts ( Sinatra )"
+    },
+    {
+      "name": "https://github.com/DmytroVasin/ListenChartsOnElectron",
+      "reference": "Audio player based on electron. ( Electron, Redux, React )"
+    },
+    {
+      "name": "https://github.com/DmytroVasin/workOrSocialNetworks",
+      "reference": "Chrome extension."
+    },
+    {
+      "name": "https://github.com/DmytroVasin/KnowledgeModel",
+      "reference": "RubyMotion App."
+    },
+    {
+      "name": "https://github.com/DmytroVasin/SimpleRecorder",
+      "reference": "Electron app to take screenshots and video recording"
+    },
+    {
+      "name": "https://github.com/DmytroVasin/web_rtc_with_rails",
+      "reference": "Rails app to make phone calls based on Rails + WebRTC + WebSockets (ActionCable)"
+    }
+  ]
+}
