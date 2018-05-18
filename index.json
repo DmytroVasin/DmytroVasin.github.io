@@ -5,7 +5,7 @@
     "picture": "https://avatars2.githubusercontent.com/u/1914001",
     "email": "dmytro.vasin@gmail.com",
     "phone": "(095) 433-46-74",
-    "summary": "I would like to get into a friendly team, where I will have a possibility to improve my programming skills and to be involved in unusual major projects. I am Ruby on Rails developer with great passion for JS, finding inspiration in programming itself. First of all, I am seeking good and clear solutions to complex problems.",
+    "summary": "I would like to get into a friendly team, where I will have a possibility to improve my programming skills and to be involved in unusual major projects. I am a Ruby on Rails developer with great passion for JS, finding inspiration in programming itself. First of all, I am seeking good and clear solutions to complex problems.",
     "profiles": [
       {
         "network": "Twitter",
@@ -46,9 +46,9 @@
       "summary": "It is a desktop cryptocurrency wallet built on React and Electron JS",
       "highlights": [
         "Electron: Setup Autoapdates for native apps for Mac and Windows platforms",
-        "Electron: Add ability to pack project as a .DMG and .EXE files",
+        "Electron: Add an ability to pack the project as a .DMG and .EXE files",
         "Mock Server: Setup server as a stagin server for the app",
-        "USB Device: Add ability to communicate with USB device ( Approve and Decline)",
+        "USB Device: Add an ability to communicate with USB device ( Approve and Decline)",
         "React: React + Redux based application"
       ]
     },
@@ -58,9 +58,9 @@
       "summary": "Beyondimagination is a site where models and stuidos can upload content for sale.",
       "highlights": [
         "GEM: Create special solution for that project: Payment gem for CCBill payment system",
-        "AWS: Add ability to upload files to S3 in a background",
-        "Encoding: Encode video after uploading ( interact with Zencoder service )",
-        "Image Processing: Apply image uploading ( S3 ) + add ability to process image on the fly ( Imgix )",
+        "AWS: Add an ability to upload files to S3 in a background",
+        "Encoding: Encode the video after uploading ( interact with Zencoder service )",
+        "Image Processing: Apply image uploading ( S3 ) + add an ability to process the image on the fly ( Imgix )",
         "AWS: Write AWS Lambda to trigger callbacks on file uploads",
         "Data transfer: Parse 2M links in parallel (Eventmachine + Fibers)"
       ]
