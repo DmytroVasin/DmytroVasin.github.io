@@ -1,4 +1,4 @@
-#### CV:
+#### CV: https://dmytrovasin.github.io/
 
 ```
 sudo npm install -g resume-cli
