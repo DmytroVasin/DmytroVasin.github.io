@@ -195,12 +195,15 @@ h4 span:first-child {
 	<header id="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
+				<div class="col-sm-3">
+					<img src="https://avatars2.githubusercontent.com/u/1914001" alt="Image" width="150px">
+				</div>
+				<div class="col-sm-9">
 					<h1>
 						Vasin Dmytro
 					</h1>
 					<h2>
-						Ruby On Rails Developer
+						Senior Ruby On Rails Developer
 					</h2>
 				</div>
 			</div>
@@ -222,19 +225,33 @@ h4 span:first-child {
 				<strong>Phone</strong>
 				<div class="phone">(095) 433-46-74</div>
 			</div>
-			<div class="col-sm-6">
-				<strong>Date of birth</strong>
-				<div class="phone">21/12/1990</div>
-			</div>
 			</div>
 		</div>
 	</section>
+  <section id="about" class="row">
+    <aside class="col-sm-3">
+      <h3>About</h3>
+    </aside>
+    <div class="col-sm-9">
+      <p>I would like to get into a friendly team, where I will have the opportunity to improve my programming skills and participate in unusual large projects. I'm a Ruby on Rails developer with a lot of passion for JS, finding inspiration in programming. First of all, I'm looking for good and clear solutions to complex problems.</p>
+    </div>
+  </section>
+
 	<section id="about" class="row">
 		<aside class="col-sm-3">
-			<h3>About</h3>
+			<h3>Summary</h3>
 		</aside>
 		<div class="col-sm-9">
-			<p>I would like to get into a friendly team, where I will have a possibility to improve my programming skills and to be involved in unusual major projects. I am a Ruby on Rails developer with great passion for JS, finding inspiration in programming itself. First of all, I am seeking good and clear solutions to complex problems.</p>
+			<ul>
+        <li>Rich experience in Ruby and JS languages</li>
+        <li>Solid expertise in Ruby</li>
+        <li>Expertise in Ruby on Rails Framework ( Contributions )</li>
+        <li>Complete understanding of web development (REST, Stateless, HTTP)</li>
+        <li>Experience in building Database system based on UML diagrams: PostgreSQL, MySQL;</li>
+        <li>Mentorship of junior staff in Ruby, Ruby on Rails</li>
+        <li>Practical experience of teaching Ruby</li>
+        <li>Took part in conferences as a speaker</li>
+      </ul>
 		</div>
 	</section>
 	<section id="profiles" class="row">
@@ -249,7 +266,7 @@ h4 span:first-child {
 					</strong>
 					<div class="username">
 						<div class="url">
-							<a target="_blank" href="https://twitter.com/DmytroVasin">DmytroVasin</a>
+							<a href="https://twitter.com/DmytroVasin">Dmytro Vasin</a>
 						</div>
 					</div>
 				</div>
@@ -259,7 +276,7 @@ h4 span:first-child {
 					</strong>
 					<div class="username">
 						<div class="url">
-							<a target="_blank" href="https://github.com/">DmytroVasin</a>
+							<a href="https://github.com/">DmytroVasin</a>
 						</div>
 					</div>
 				</div>
@@ -267,12 +284,195 @@ h4 span:first-child {
 		</div>
 	</section>
 
-	<section id="volunteer" class="row">
+	<section id="work" class="row">
 		<aside class="col-sm-3">
-			<h3>Companies</h3>
+			<h3>Projects</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Photo & Video hosting for sale service</span>
+					<span class="date">
+						 —
+					</span>
+				</h4>
+        <div class="position">
+          Position: Backend developer
+        </div>
+				<div class="position">
+					Client: The private person
+				</div>
+        <div class="summary">
+          <p>Beyondimagination is a site where models and studios can upload content for sale.</p>
+
+          <div>
+            The main idea of ​​the site is the sale of video/photo content.
+            One of the main requirements was adaptability for mobile devices and tablets.
+            Also, the work was complicated by the fact that it was necessary to work with a large inherited base of already existing data.
+            <br>
+            <br>
+            Users of the site fall into two categories:
+            <ul>
+              <li>* Fan - consumers of content,</li>
+              <li>* Models / Studios are content providers.</li>
+            </ul>
+
+            In addition to the standard purchase of content (video, pixels), users can request custom content from models,
+            buy subscriptions for models, chat with models and fool their accounts on the site.
+          </div>
+        </div>
+
+        <h4>Responsibility:</h4>
+        <ul class="highlights">
+          <li class="bullet">Team activities coordination (2 backend developers, 2 frontend developers)</li>
+          <li class="bullet">Communicating with stakeholders to figure out requirements and project needs</li>
+          <li class="bullet">Designing application architecture</li>
+          <li class="bullet">Frontend and backend development and refactoring;</li>
+          <li class="bullet">Setting up CI/CD plans and maintaining deployment/release process;</li>
+          <li class="bullet">A monitoring system, including payment system and webhooks</li>
+        </ul>
+
+				<h4>Main features:</h4>
+				<ul class="highlights">
+					<li class="bullet">Create a unique solution for a project: Payment library for CCBill payment system</li>
+					<li class="bullet">Add an ability to upload files to S3 in a background</li>
+					<li class="bullet">Encode the video after uploading ( interact with Zencoder service )</li>
+					<li class="bullet">Apply image uploading to Amazon & add an ability to process the image on the fly ( Imgix )</li>
+					<li class="bullet">Wrote AWS Lambda to trigger callbacks on file uploads</li>
+					<li class="bullet">Data transfer: Parse 2M links in parallel (Eventmachine + Fibers)</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Cryptocurrency wallet</span>
+					<span class="date">
+						 —
+					</span>
+				</h4>
+				<div class="position">
+					Fronted + Backend developer
+				</div>
+        <div class="position">
+          Client: The Crypto Company
+        </div>
+				<div class="summary">
+          <p>It is a desktop cryptocurrency wallet built on React and Electron JS</p>
+          <p>Complete cryptocurrency wallet-management system for the financial sector, offering custody and the ability to process transactions.</p>
+          <br>
+
+					<div>
+            The project’s aim was to provide a solution/app that would be installed on the private computer of clients.
+            Clients can add new cryptocurrencies and check their balance in just a few clicks.
+            The project consisted of several parts. One part was dedicated for creation of desktop-base application to
+            provide a friendly interface to communicate with our app. Another part - is a backend project that responsible
+            for communication with trading services and creation of transactions that implemented based on the Blockchain technology.
+            The application supported several user roles, maintained complex data. Provide ability to see graphics and statistical information.
+            Import/export documents and logs.
+          </div>
+				</div>
+
+        <h4>Responsibility:</h4>
+        <ul class="highlights">
+          <li class="bullet">Backend architecture development</li>
+          <li class="bullet">Discussion of product needs and goals</li>
+          <li class="bullet">Desktop deployment, setup and installation</li>
+          <li class="bullet">Reviewing code requests (PR)</li>
+          <li class="bullet">Writing project documentation</li>
+          <li class="bullet">Implementing code and testing</li>
+        </ul>
+
+				<h4>Main features:</h4>
+				<ul class="highlights">
+					<li class="bullet">Setup Autoapdates for native apps for Mac and Windows platforms</li>
+					<li class="bullet">Add an ability to pack the project as a .DMG and .EXE files</li>
+					<li class="bullet">Setup mock-server as a staging server for the app</li>
+					<li class="bullet">Add an ability to communicate with USB device ( Approve and Decline)</li>
+					<li class="bullet">Setup React + Redux based application</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Christian Radio</span>
+					<span class="date">
+						 —
+					</span>
+				</h4>
+				<div class="position">
+					Fronted + Backend developer
+				</div>
+        <div class="position">
+          Client: The private person from Commonwealth of Churches
+        </div>
+				<div class="summary">
+          <p>
+            On the site you can listen to popular religious radio stations, podcasts of famous businessmen,
+            mothers and spiritual teachers, telling about their lives
+          </p>
+          <p>
+            The project was aimed at creating a website for the religious people to
+            provide more effective UI experience of listening any religion music.
+            Also, publish own content that monitored and approved by our system.
+          </p>
+
+					<p>
+            Our team had the next tasks:
+          </p>
+
+          <p>- Implement SEO optimized and friendly interface</p>
+          <p>- Ability to play video podcasts</p>
+          <p>- Implement Vimeo channels and RSS video podcasts</p>
+          <p>- implement a mobile client that can be used by our clients</p>
+          <p>- Rewrite DB/SQL structure</p>
+          <p>- Improve the search system ( optimized high loaded SQL queries )</p>
+          <p>- Add advertising banners and ability to show/change them</p>
+				</div>
+
+        <h4>Responsibility:</h4>
+        <ul class="highlights">
+          <li class="bullet">Rewrite architecture of a legacy project</li>
+          <li class="bullet">Rebuild the system to support all platform including mobile devices</li>
+          <li class="bullet">An implement deep CEO-friendly site for web-crawlers</li>
+          <li class="bullet">Modification of complex queries to speed up application</li>
+          <li class="bullet">Process organization</li>
+          <li class="bullet">Negotiations with the customer and requirements gathering.</li>
+        </ul>
+
+				<h4>Main features:</h4>
+				<ul class="highlights">
+					<li class="bullet">Deep work with SEO optimization ( Prerenderer.io, Screaming Frog )</li>
+					<li class="bullet">Creation of SPA Project that based on Angular 1</li>
+					<li class="bullet">Setup publishing to Facebook pages</li>
+					<li class="bullet">Add RSS parsing from different feed endpoints</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Jobs</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Anadea</span>
+					<span class="date">
+						2013-10-30 — 2018-05-20
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://anadea.info/">https://anadea.info/</a>
+				</div>
+				<div class="position">
+					Ruby On Rails Developer
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>JetThoughts</span>
@@ -281,24 +481,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a target="_blank" href="http://www.jetthoughts.com/">http://www.jetthoughts.com/</a>
-				</div>
-				<div class="position">
-					Ruby On Rails Developer
-				</div>
-				<div class="summary">
-					<p></p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Anadea</span>
-					<span class="date">
-						2013-10-30 — Now
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a target="_blank" href="https://anadea.info/">https://anadea.info/</a>
+					<a href="http://www.jetthoughts.com/">http://www.jetthoughts.com/</a>
 				</div>
 				<div class="position">
 					Ruby On Rails Developer
@@ -311,82 +494,35 @@ h4 span:first-child {
 		</div>
 	</section>
 
-	<section id="work" class="row">
+	<section id="education" class="row">
 		<aside class="col-sm-3">
-			<h3>Work</h3>
+			<h3>Education</h3>
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
 			<div class="col-sm-12">
 				<h4 class="strike-through">
-					<span>SILO</span>
+					<span>Donetsk National Technical University</span>
 					<span class="date">
-						 —
+						2007-09-01 — 2012-07-01
 					</span>
 				</h4>
-				<div class="position">
-					Fronted + Backend developer
+				<div class="area">
+					Information Technology
 				</div>
-				<div class="summary">
-					<p>It is a desktop cryptocurrency wallet built on React and Electron JS</p>
+				<div class="studyType">
+					Bachelor
 				</div>
-				<h4>Duties</h4>
-				<ul class="highlights">
-					<li class="bullet">Electron: Setup Autoapdates for native apps for Mac and Windows platforms</li>
-					<li class="bullet">Electron: Add an ability to pack the project as a .DMG and .EXE files</li>
-					<li class="bullet">Mock Server: Setup server as a stagin server for the app</li>
-					<li class="bullet">USB Device: Add an ability to communicate with USB device ( Approve and Decline)</li>
-					<li class="bullet">React: React + Redux based application</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Beyondimagination</span>
-					<span class="date">
-						 —
-					</span>
-				</h4>
-				<div class="position">
-					Backend developer
-				</div>
-				<div class="summary">
-					<p>Beyondimagination is a site where models and stuidos can upload content for sale.</p>
-				</div>
-				<h4>Duties</h4>
-				<ul class="highlights">
-					<li class="bullet">GEM: Create a special solution for that project: Payment gem for CCBill payment system</li>
-					<li class="bullet">AWS: Add an ability to upload files to S3 in a background</li>
-					<li class="bullet">Encoding: Encode the video after uploading ( interact with Zencoder service )</li>
-					<li class="bullet">Image Processing: Apply image uploading ( S3 ) + add an ability to process the image on the fly ( Imgix )</li>
-					<li class="bullet">AWS: Write AWS Lambda to trigger callbacks on file uploads</li>
-					<li class="bullet">Data transfer: Parse 2M links in parallel (Eventmachine + Fibers)</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Meek</span>
-					<span class="date">
-						 —
-					</span>
-				</h4>
-				<div class="position">
-					Fronted + Backend developer
-				</div>
-				<div class="summary">
-					<p>On the site you can listen to popular religious radio stations, podcasts of famous businessmen, mothers and spiritual teachers, telling about their lives</p>
-				</div>
-				<h4>Duties</h4>
-				<ul class="highlights">
-					<li class="bullet">SEO: Deep work with SEO optimisation ( Prerenderer.io, Screaming Frog )</li>
-					<li class="bullet">Angular: Project based on Angular 1</li>
-					<li class="bullet">FB Share: Setup publising to Facebook pages</li>
-					<li class="bullet">RSS: Add RSS parsing from differend feed endpoints</li>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>C++</li>
+					<li>Basic SQL</li>
+					<li>Java Introduction</li>
 				</ul>
 			</div>
 			</div>
 		</div>
 	</section>
-
 
 
 	<section id="publications" class="row">
@@ -403,7 +539,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a target="_blank" href="https://minskjs.timepad.ru/event/606211/"></a>
+					<a href="https://minskjs.timepad.ru/event/606211/"></a>
 				</div>
 				<div class="publisher">
 					<em>Published by</em>
@@ -418,7 +554,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a target="_blank" href="https://dou.ua/calendar/19232/"></a>
+					<a href="https://dou.ua/calendar/19232/"></a>
 				</div>
 				<div class="publisher">
 					<em>Published by</em>
@@ -433,7 +569,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a target="_blank" href="http://contributors.rubyonrails.org/contributors/dmytro-vasin/commits"></a>
+					<a href="http://contributors.rubyonrails.org/contributors/dmytro-vasin/commits"></a>
 				</div>
 				<div class="publisher">
 					<em>Published by</em>
@@ -451,7 +587,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a target="_blank" href="https://github.com/DmytroVasin/bomber"></a>
+					<a href="https://github.com/DmytroVasin/bomber"></a>
 				</div>
 				<div class="publisher">
 					<em>Published by</em>
@@ -469,7 +605,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a target="_blank" href="https://anadea.info/blog/author/dmitriy-vasin"></a>
+					<a href="https://anadea.info/blog/author/dmitriy-vasin"></a>
 				</div>
 				<div class="publisher">
 					<em>Published by</em>
@@ -515,7 +651,7 @@ h4 span:first-child {
 				</div>
 				<ul class="keywords">
 					<li>CSS ( old browser support, all browsers, mobile view )</li>
-					<li>Angular 1 in production app</li>
+					<li>Angular 1 in a production app</li>
 					<li>React ( Redux, Babel, Webpack ) in home projects</li>
 					<li>npm ( yarn )</li>
 					<li>Electron</li>
@@ -565,7 +701,7 @@ h4 span:first-child {
 					<strong>English</strong>
 				</div>
 				<div class="fluency">
-					(Upper Intermidiate)
+					(Upper Intermediate)
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -596,7 +732,7 @@ h4 span:first-child {
 			<div class="row">
 			<div class="col-sm-6">
 				<div class="name">
-					<h4>Rails + Modern JS Stack</h4>
+					<h4>Rails and Modern JS Stack</h4>
 				</div>
 				<ul class="keywords">
 					<li>Write apps on Electron</li>
@@ -640,7 +776,7 @@ h4 span:first-child {
 			</div>
 			<div class="col-sm-12">
 				<blockquote class="reference">
-					<p>Gem AuditLogger ( extracted from project )</p>
+					<p>Gem AuditLogger ( extracted from a project )</p>
 					<p class="name">
 						<strong>— https://github.com/DmytroVasin/audit_logger</strong>
 					</p>

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Vasin Dmytro",
-    "label": "Ruby On Rails Developer",
+    "label": "Senior Ruby On Rails Developer",
     "picture": "https://avatars2.githubusercontent.com/u/1914001",
     "email": "dmytro.vasin@gmail.com",
     "phone": "(095) 433-46-74",
@@ -19,6 +19,21 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Donetsk National Technical University",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2007-09-01",
+      "endDate": "2012-07-01",
+      "gpa": "4.0",
+      "courses": [
+        "C++",
+        "Basic SQL",
+        "Java Introduction"
+      ]
+    }
+  ],
   "volunteer": [
     {
       "organization": "Anadea",
@@ -41,18 +56,6 @@
   ],
   "work": [
     {
-      "company": "SILO",
-      "position": "Fronted + Backend developer",
-      "summary": "It is a desktop cryptocurrency wallet built on React and Electron JS",
-      "highlights": [
-        "Electron: Setup Autoapdates for native apps for Mac and Windows platforms",
-        "Electron: Add an ability to pack the project as a .DMG and .EXE files",
-        "Mock Server: Setup server as a stagin server for the app",
-        "USB Device: Add an ability to communicate with USB device ( Approve and Decline)",
-        "React: React + Redux based application"
-      ]
-    },
-    {
       "company": "Beyondimagination",
       "position": "Backend developer",
       "summary": "Beyondimagination is a site where models and stuidos can upload content for sale.",
@@ -63,6 +66,18 @@
         "Image Processing: Apply image uploading ( S3 ) + add an ability to process the image on the fly ( Imgix )",
         "AWS: Write AWS Lambda to trigger callbacks on file uploads",
         "Data transfer: Parse 2M links in parallel (Eventmachine + Fibers)"
+      ]
+    },
+    {
+      "company": "SILO",
+      "position": "Fronted + Backend developer",
+      "summary": "It is a desktop cryptocurrency wallet built on React and Electron JS",
+      "highlights": [
+        "Electron: Setup Autoapdates for native apps for Mac and Windows platforms",
+        "Electron: Add an ability to pack the project as a .DMG and .EXE files",
+        "Mock Server: Setup server as a stagin server for the app",
+        "USB Device: Add an ability to communicate with USB device ( Approve and Decline)",
+        "React: React + Redux based application"
       ]
     },
     {
