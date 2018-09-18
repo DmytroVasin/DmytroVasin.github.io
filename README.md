@@ -7,3 +7,9 @@ Based on resume.json:
 resume export index.html
 resume export index.pdf
 ```
+
+PDF converter:
+
+```
+https://www.sejda.com/html-to-pdf
+```
